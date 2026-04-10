@@ -10,8 +10,10 @@ from sklearn.preprocessing import StandardScaler
 from mlxtend.frequent_patterns import apriori, association_rules
 import statsmodels.api as sm
 
-st.set_page_config(layout="wide")
-st.title(" Nuvit - Inteligência Comercial")
+st.set_page_config(
+    page_title="Nuvit - Inteligência Comercial",
+    layout="wide"
+)
 
 file = st.file_uploader("Suba seu Excel", type=["xlsx"])
 
