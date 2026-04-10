@@ -11,7 +11,7 @@ from mlxtend.frequent_patterns import apriori, association_rules
 import statsmodels.api as sm
 
 st.set_page_config(layout="wide")
-st.title("🚀 Nuvit - Inteligência Comercial PRO")
+st.title("Nuvit - Inteligência Comercial")
 
 file = st.file_uploader("Suba seu Excel", type=["xlsx"])
 
